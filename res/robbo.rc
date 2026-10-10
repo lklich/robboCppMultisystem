@@ -1,0 +1,23 @@
+// Zasoby Windows: ikona programu (identyfikator 1 – używany też przez SDL jako ikona okna)
+1 ICON "robbo.ico"
+
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "041504E2"
+    BEGIN
+      VALUE "FileDescription", "Robbo"
+      VALUE "ProductName", "Robbo"
+      VALUE "FileVersion", "1.0"
+      VALUE "ProductVersion", "1.0"
+      VALUE "OriginalFilename", "Robbo.exe"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x415, 1250
+  END
+END
